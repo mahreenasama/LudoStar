@@ -1,8 +1,8 @@
 # LudoStar
 
-Deployement at: https://mahreen-asama.github.io/LudoStar/
+Published at: https://mahreen-asama.github.io/LudoStar/
 
-![ludo](https://user-images.githubusercontent.com/79749919/234848089-2fa4471d-9ebd-49bc-8f97-34ba7c9a044d.PNG)
+![ludo](https://user-images.githubusercontent.com/79749919/234849685-27131994-4868-4520-a3af-79f4092f4ea9.PNG)
 
 Original LUDO RULES:-
 
