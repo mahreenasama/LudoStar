@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body onload="onlod()">
+
+    <!-- faces -->
+    <!-- <div id="one"> -->
+        <!-- <div id="faces-div">
+
+        </div> -->
+        <!-- msg -->
+        <p id="turn-msg">Player Green's Turn</p>
+    
+        <!-- btn -->
+        <button id="dice-btn" class="cgreen" onclick="rollDice()" type="button">
+            <img id="face1" src="src/f1.jpg" alt="face6">
+        </button>
+    <!-- </div> -->
+    
+
+    <!-- box -->
+    <div id="box">
+        <!-- ------------------------------ box row 1------------------------------- -->
+        <div id="green">
+            <div id="green-pieces" class="pieces-area">
+                <div id="g-p1-d" class="piece-div"><div id="g-p1" class="g-p"></div></div>
+                <div id="g-p2-d" class="piece-div"><div id="g-p2" class="g-p"></div></div>
+                <div id="g-p3-d" class="piece-div"><div id="g-p3" class="g-p"></div></div>
+                <div id="g-p4-d" class="piece-div"><div id="g-p4" class="g-p"></div></div>
+            </div>
+        </div>
+        <div id="yellow-area">
+            <div id="y-r1-1"></div>
+            <div id="y-r1-2"></div>
+            <div id="y-r1-3"></div>
+
+            <div id="y-r2-1"></div>
+            <div id="y-r2-2"></div>
+            <div id="y-r2-3"><i class="fa fa-globe fa-2x"></i></div>
+
+            <div id="y-r3-1"><i class="fa fa-star fa-2x"></i></div>
+            <div id="y-r3-2"></div>
+            <div id="y-r3-3"></div>
+
+            <div id="y-r4-1"></div>
+            <div id="y-r4-2"></div>
+            <div id="y-r4-3"></div>
+
+            <div id="y-r5-1"></div>
+            <div id="y-r5-2"></div>
+            <div id="y-r5-3"></div>
+
+            <div id="y-r6-1"></div>
+            <div id="y-r6-2"></div>
+            <div id="y-r6-3"></div>
+        </div>
+        <div id="yellow">
+            <div id="yellow-pieces" class="pieces-area">
+                <div id="y-p1-d" class="piece-div"><div id="y-p1" class="y-p"></div></div>
+                <div id="y-p2-d" class="piece-div"><div id="y-p2" class="y-p"></div></div>
+                <div id="y-p3-d" class="piece-div"><div id="y-p3" class="y-p"></div></div>
+                <div id="y-p4-d" class="piece-div"><div id="y-p4" class="y-p"></div></div>
+            </div>
+        </div>
+
+        <!-- ------------------------------ box row 2------------------------------- -->
+        <div id="green-area">
+            <div id="g-r1-1"></div>
+            <div id="g-r1-2"><i class="fa fa-globe fa-2x"></i></div>
+            <div id="g-r1-3"></div>
+            <div id="g-r1-4"></div>
+            <div id="g-r1-5"></div>
+            <div id="g-r1-6"></div>
+
+            <div id="g-r2-1"></div>
+            <div id="g-r2-2"></div>
+            <div id="g-r2-3"></div>
+            <div id="g-r2-4"></div>
+            <div id="g-r2-5"></div>
+            <div id="g-r2-6"></div>
+
+            <div id="g-r3-1"></div>
+            <div id="g-r3-2"></div>
+            <div id="g-r3-3"><i class="fa fa-star fa-2x"></i></div>
+            <div id="g-r3-4"></div>
+            <div id="g-r3-5"></div>
+            <div id="g-r3-6"></div>
+        </div>
+        <div id="final">
+            <!-- <div id="yellow-triangle-down"></div>
+            <div id="green-triangle-right"></div>
+            <div id="blue-triangle-left"></div>
+            <div id="red-triangle-up"></div> -->
+        </div>
+        <div id="blue-area">
+            <div id="b-r1-1"></div>
+            <div id="b-r1-2"></div>
+            <div id="b-r1-3"></div>
+            <div id="b-r1-4"><i class="fa fa-star fa-2x"></i></div>
+            <div id="b-r1-5"></div>
+            <div id="b-r1-6"></div>
+
+            <div id="b-r2-1"></div>
+            <div id="b-r2-2"></div>
+            <div id="b-r2-3"></div>
+            <div id="b-r2-4"></div>
+            <div id="b-r2-5"></div>
+            <div id="b-r2-6"></div>
+
+            <div id="b-r3-1"></div>
+            <div id="b-r3-2"></div>
+            <div id="b-r3-3"></div>
+            <div id="b-r3-4"></div>
+            <div id="b-r3-5"><i class="fa fa-globe fa-2x"></i></div>
+            <div id="b-r3-6"></div>
+        </div>
+
+        <!-- ------------------------------ box row 3------------------------------- -->
+        <div id="red">
+            <div id="red-pieces" class="pieces-area">
+                <div id="r-p1-d" class="piece-div"><div id="r-p1" class="r-p"></div></div>
+                <div id="r-p2-d" class="piece-div"><div id="r-p2" class="r-p"></div></div>
+                <div id="r-p3-d" class="piece-div"><div id="r-p3" class="r-p"></div></div>
+                <div id="r-p4-d" class="piece-div"><div id="r-p4" class="r-p"></div></div>
+            </div>
+        </div>
+        <div id="red-area">
+            <div id="r-r1-1"></div>
+            <div id="r-r1-2"></div>
+            <div id="r-r1-3"></div>
+
+            <div id="r-r2-1"></div>
+            <div id="r-r2-2"></div>
+            <div id="r-r2-3"></div>
+
+            <div id="r-r3-1"></div>
+            <div id="r-r3-2"></div>
+            <div id="r-r3-3"></div>
+
+            <div id="r-r4-1"></div>
+            <div id="r-r4-2"></div>
+            <div id="r-r4-3"><i class="fa fa-star fa-2x"></i></div>
+
+            <div id="r-r5-1"><i class="fa fa-globe fa-2x"></i></div>
+            <div id="r-r5-2"></div>
+            <div id="r-r5-3"></div>
+
+            <div id="r-r6-1"></div>
+            <div id="r-r6-2"></div>
+            <div id="r-r6-3"></div>
+        </div>
+        <div id="blue">
+            <div id="blue-pieces" class="pieces-area">
+                <div id="b-p1-d" class="piece-div"><div id="b-p1" class="b-p"></div></div>
+                <div id="b-p2-d" class="piece-div"><div id="b-p2" class="b-p"></div></div>
+                <div id="b-p3-d" class="piece-div"><div id="b-p3" class="b-p"></div></div>
+                <div id="b-p4-d" class="piece-div"><div id="b-p4" class="b-p"></div></div>
+            </div>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
