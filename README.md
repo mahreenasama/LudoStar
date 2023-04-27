@@ -1,5 +1,7 @@
 # LudoStar
 
+![ludo](https://user-images.githubusercontent.com/79749919/234848089-2fa4471d-9ebd-49bc-8f97-34ba7c9a044d.PNG)
+
 Original LUDO RULES:-
 
 * Roll dice
