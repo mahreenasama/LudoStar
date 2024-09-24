@@ -1,10 +1,10 @@
 # LudoStar
 
-Published at: https://mahreen-asama.github.io/LudoStar/
+Published at: https://mahreenasama.github.io/LudoStar/
 
 ![ludo](https://user-images.githubusercontent.com/79749919/234849685-27131994-4868-4520-a3af-79f4092f4ea9.PNG)
 
-Original LUDO RULES:-
+RULES:-
 
 * Roll dice
 * Again roll if 1st time 6 come
